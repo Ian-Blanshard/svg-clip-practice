@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap");
+
+body {
+  /* remove default margin which created white space around sections */
+  margin: 0;
+}
+
+section {
+  width: 100%;
+  display: flex;
+  background-color: rgb(74, 74, 221);
+}
+
+/*================== svg styles =============== */
+.my-svg {
+  width: 33%;
+  height: auto;
+  background-color: rgb(74, 74, 221);
+}
+.main-polygon {
+  fill: rgb(126, 195, 255);
+  stroke-width: 1%;
+  stroke: black;
+}
+
+.secondary-polygon {
+  fill: rgb(17, 66, 108);
+  stroke-width: 1%;
+  stroke: black;
+}
+
+/*================== svg text styles =============== */
+
+.svg-text {
+  fill: rgb(126, 195, 255);
+  font-size: 10px;
+  font-family: "Playpen Sans", cursive;
+  font-weight: 800;
+}
+
+.svg-text-2 {
+  fill: rgb(17, 66, 108);
+  font-size: 10px;
+  font-family: "Playpen Sans", cursive;
+  font-weight: 800;
+}
